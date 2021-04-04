@@ -58,6 +58,8 @@ Now To set up graphics.h in vs code:
           char data[] = "C:\\MinGW\\lib\\libbgi.a";
       
           initgraph(&gd, &gm, data);
+	  //you can also do NULL for third parameter if you did above setup successfully
+	  //example: initgraph(&gd, &gm, NULL);
           circle(200, 200, 100);
           getch();
           closegraph();
