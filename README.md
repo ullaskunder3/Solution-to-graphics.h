@@ -34,11 +34,11 @@ Now To set up graphics.h in vs code:
 	
 ## Setup
  Get all the materal needed `graphics.h`, `winbgim.h` and `libbgi.a`
--  If you dont have MinGW install it from official and follow the steps
+-  If you dont have MinGW install it from official and follow the steps\
  Copy `graphics.h` and `winbgim.h` files to MinGW/`include` folder.
-   Location Might be **("C:\MinGW\include\")**
+   Location Might be **("C:\MinGW\include\")**\
  Copy `libbgi.a` to file to MinGW/`lib` folder.
-   Location **("C:\MinGW\lib\")**
+   Location **("C:\MinGW\lib\")**\
  Open Vs Code Smart way:
    - Select a folder and open Terminal
    ```bash
@@ -66,9 +66,10 @@ Now To set up graphics.h in vs code:
           return 0;
       }
   ```
- Running the file using: 
-  ```powershell
+ Running the file using command in termainl: 
+  ```cmd
        g++ -o testfile example.cpp -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 
       //after u'll get textFile.exe run using command: .\testFile
   ```
+  If your dont want to write that command again and again you can create task.json I will update soon on that...
