@@ -33,12 +33,13 @@ Now To set up graphics.h in vs code:
 
 	
 ## Setup
- Get all the materal needed `graphics.h`, `winbgim.h` and `libbgi.a`
--  If you dont have MinGW install it from official and follow the steps\
- Copy `graphics.h` and `winbgim.h` files to MinGW/`include` folder.
-   Location Might be **("C:\MinGW\include\")**\
- Copy `libbgi.a` to file to MinGW/`lib` folder.
-   Location **("C:\MinGW\lib\")**\
+ Get all the materal needed `graphics.h`, `winbgim.h` and `libbgi.a`\
+ If you dont have MinGW install it from official and follow the steps.<br>
+- Copy `graphics.h` and `winbgim.h` files to MinGW/`include` folder. 
+   Location Might be **("C:\MinGW\include\")**
+- Copy `libbgi.a` to file to MinGW/`lib` folder. 
+   Location **("C:\MinGW\lib\")**
+   
  Open Vs Code Smart way:
    - Select a folder and open Terminal
    ```bash
