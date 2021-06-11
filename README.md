@@ -7,6 +7,7 @@
 - [General info](#general-info)
 - [files](#files)
 - [Setup](#setup)
+- [.vscode config file](https://github.com/ullaskunder3/graphics.h-setup)
 
 ## General info
 It like a tradition to use Turbo in our Indian CS sector.
@@ -73,4 +74,4 @@ Now To set up graphics.h in vs code:
 
       //after u'll get textFile.exe run using command: .\testFile
   ```
-  If your dont want to write that command again and again you can create task.json I will update soon on that...
+  If your dont want to write that command again and again you can create [task.json](https://github.com/ullaskunder3/graphics.h-setup/tree/main/.vscode)
