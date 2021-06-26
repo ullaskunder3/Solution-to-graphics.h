@@ -21,7 +21,7 @@ The graphics. h header file provides access to a simple graphics library that ma
 > There are much better option 
 
 Allegro or SDL libraries may be for you.
-You could also try SFML. It has quite a following and you'll have a large community behind you should you have any trouble.
+You could also try SFML. It has quite a following. You'll have a large community behind you if you needed any help.
 
 --------------------------------------------------
 
