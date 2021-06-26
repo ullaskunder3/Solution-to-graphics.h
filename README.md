@@ -34,7 +34,7 @@ Now To set up graphics.h in vs code:
 
 	
 ## Setup
- Get all the materal needed `graphics.h`, `winbgim.h` and `libbgi.a`\
+ Get all the files needed `graphics.h`, `winbgim.h` and `libbgi.a`\
  If you dont have MinGW install it from official and follow the steps.<br>
  Know the difference between MINGW, Mingw-w64 && TDM [learn more go, go, go...](https://github.com/ullaskunder3/cpp-setup-vsCode#setup)
  
