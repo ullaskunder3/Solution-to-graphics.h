@@ -34,7 +34,8 @@ Now To set up graphics.h in vs code:
 
 	
 ## Setup
- Get all the files needed `graphics.h`, `winbgim.h` and `libbgi.a`\
+ Get all the files needed `graphics.h`, `winbgim.h` and `libbgi.a`
+ 
  If you dont have MinGW install it from official and follow the steps.<br>
  Know the difference between MINGW, Mingw-w64 && TDM [learn more go, go, go...](https://github.com/ullaskunder3/cpp-setup-vsCode#setup)
  
@@ -76,4 +77,5 @@ Now To set up graphics.h in vs code:
 
       //after u'll get textFile.exe run using command: .\testFile
   ```
+  Easy run template for graphics.h [repo](https://github.com/ullaskunder3/graphics.h-project-template)
   If your dont want to write that command again and again you can create [task.json](https://github.com/ullaskunder3/graphics.h-setup/tree/main/.vscode)
