@@ -75,6 +75,10 @@ Now To set up graphics.h in vs code:
           return 0;
       }
   ```
+ - Just `Ctrl+Shift+B` to run the build task you will get the executable file in build folder
+ 
+ OR
+
  Running the file using command in termainl: 
   ```cmd
        g++ -o testfile example.cpp -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
