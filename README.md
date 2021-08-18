@@ -45,6 +45,8 @@ Now To set up graphics.h in vs code:
    Location Might be **("C:\MinGW\include\")**
 - Copy `libbgi.a` to file to MinGW/`lib` folder. 
    Location **("C:\MinGW\lib\")**
+- Create or Add `.vscode` folder in that workspace which will contain `task.json`, `c_cpp_properties.json` you can get it from the [.vscode config](https://github.com/ullaskunder3/graphics.h-project-template)
+- ![image](https://user-images.githubusercontent.com/66258652/129923693-e406ff38-c2aa-4a9b-b969-37893d3484d9.png)
    
  Open Vs Code Smart way:
    - Select a folder and open Terminal
