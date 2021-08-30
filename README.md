@@ -98,7 +98,7 @@ Running the file using command in termainl:
 
  OR
 
-- Just `Ctrl+Shift+B` to run the build task you will get the executable file in build folder
-
   Easy run template for graphics.h [=> repo](https://github.com/ullaskunder3/graphics.h-project-template)
   If your dont want to write that command again and again you can create [task.json](https://github.com/ullaskunder3/graphics.h-setup/tree/main/.vscode)
+
+- Just `Ctrl+Shift+B` to run the build task you will get the executable file in build folder
