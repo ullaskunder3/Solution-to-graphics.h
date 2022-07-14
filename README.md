@@ -120,3 +120,9 @@ Running the file using command in termainl:
 
   Easy run template for graphics.h [=> repo](https://github.com/ullaskunder3/graphics.h-project-template)
   If your dont want to write that command again and again you can create [task.json](https://github.com/ullaskunder3/graphics.h-setup/tree/main/.vscode)
+
+
+
+## Detailed Article on setting up graphics library (graphics.h) in Visual Studio Code (c++) 
+
+Detailed Article on How to setup graphics.h with Vscode and MinGW 6.3.0 Can be Found Here [How to Setup Graphics.h for Visual Studio Code.](https://github.com/sagargoswami2001/Setup-Graphics.h-for-Visual-Studio-Code)
