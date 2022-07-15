@@ -37,6 +37,10 @@ alternative video instruction in `hindi` to setup graphics.h lib in vscode
  
 [<img src="https://i.imgur.com/P8xiypZ.png" alt="How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA " width="50%" />](https://www.youtube.com/embed/ijrNSHwXDAc "How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA" )
 
+ Alternative step wise instruction to setup MinGW along with graphics library (graphics.h)
+ 
+- ReadME [MinGW & graphics.h setup](https://github.com/sagargoswami2001/Setup-Graphics.h-for-Visual-Studio-Code/blob/main/README.md)
+
 ## files
 
 - [Graphics](./graphics.h)
@@ -48,9 +52,6 @@ alternative video instruction in `hindi` to setup graphics.h lib in vscode
  Get all the files needed `graphics.h`, `winbgim.h` and `libbgi.a`
 
  If you don't have MinGW installed get it from official and follow the steps.
- 
- ### Alternative step wise instruction to setup MinGW along with graphics library (graphics.h)
-- ReadME [MinGW & graphics.h Setup](https://github.com/sagargoswami2001/Setup-Graphics.h-for-Visual-Studio-Code/blob/main/README.md)
 
  Know the difference between MINGW, Mingw-w64 && TDM [learn more go, go, go...](https://github.com/ullaskunder3/cpp-setup-vsCode#setup)
 
@@ -143,5 +144,4 @@ Thanks goes to these wonderful people:
     <a href="#question-sagargoswami2001" title="Answering Questions">💬</a> <a href="https://github.com/ullaskunder3/Solution-to-graphics.h/commits?author=sagargoswami2001" title="Documentation">📖</a>
   </tr>
 
-</table>
 </table>
