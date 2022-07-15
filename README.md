@@ -48,6 +48,9 @@ alternative video instruction in `hindi` to setup graphics.h lib in vscode
  Get all the files needed `graphics.h`, `winbgim.h` and `libbgi.a`
 
  If you don't have MinGW installed get it from official and follow the steps.
+ 
+ ### Alternative step wise instruction to setup MinGW along with graphics library (graphics.h)
+- ReadME [MinGW & graphics.h Setup](https://github.com/sagargoswami2001/Setup-Graphics.h-for-Visual-Studio-Code/blob/main/README.md)
 
  Know the difference between MINGW, Mingw-w64 && TDM [learn more go, go, go...](https://github.com/ullaskunder3/cpp-setup-vsCode#setup)
 
@@ -125,7 +128,7 @@ Running the file using command in termainl:
   Easy run template for graphics.h [=> repo](https://github.com/ullaskunder3/graphics.h-project-template)
   If your dont want to write that command again and again you can create [task.json](https://github.com/ullaskunder3/graphics.h-setup/tree/main/.vscode)
   
-  ## Contributors ✨
+    ## Contributors ✨
 
 Thanks goes to these wonderful people:
 
@@ -138,6 +141,10 @@ Thanks goes to these wonderful people:
     <a href="#question-Prakash4844" title="Answering Questions">💬</a> <a href="https://github.com/ullaskunder3/Solution-to-graphics.h/commits?author=Prakash4844" title="Documentation">📖</a>
   </tr>
 
+<tr>
+ <td align="center"><a href="https://github.com/sagargoswami2001"><img src="https://avatars.githubusercontent.com/u/88379870?v=4" width="100px;" alt=""/><br /><sub><b>sagargoswami2001</b></sub></a><br />
+    <a href="#question-sagargoswami2001" title="Answering Questions">💬</a> <a href="https://github.com/ullaskunder3/Solution-to-graphics.h/commits?author=sagargoswami2001" title="Documentation">📖</a>
+  </tr>
+
 </table>
 </table>
-  
