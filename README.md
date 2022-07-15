@@ -33,9 +33,9 @@ You could also try SFML. It has quite a following. You'll have a large community
 
 Now To set up graphics.h in vs code:
 
-Follow the video instruction to setup graphics.h(The video is in Hindi Language.)
+alternative video instruction in `hindi` to setup graphics.h lib in vscode
  
-[<img src="https://i.imgur.com/P8xiypZ.png" alt="How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA " />](https://www.youtube.com/embed/ijrNSHwXDAc "How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA" )
+[<img src="https://i.imgur.com/P8xiypZ.png" alt="How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA " width="50%" />](https://www.youtube.com/embed/ijrNSHwXDAc "How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA" )
 
 ## files
 
