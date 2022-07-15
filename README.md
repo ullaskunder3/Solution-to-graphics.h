@@ -121,11 +121,6 @@ Running the file using command in termainl:
   Easy run template for graphics.h [=> repo](https://github.com/ullaskunder3/graphics.h-project-template)
   If your dont want to write that command again and again you can create [task.json](https://github.com/ullaskunder3/graphics.h-setup/tree/main/.vscode)
   
-  ## Video of Setting up graphics library (graphics.h) in Visual Studio Code (c++)
+  ## Video of alternative way to set up graphics library (graphics.h) in Visual Studio Code (c++)
  
-<p align="center">
-
-[![How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA ](https://i.imgur.com/3wX7Lw5.png)](https://www.youtube.com/embed/ijrNSHwXDAc "How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA" )
-
-</p>
-
+[<img src="https://i.imgur.com/P8xiypZ.png" alt="How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA " />](https://www.youtube.com/embed/ijrNSHwXDAc "How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA" )
