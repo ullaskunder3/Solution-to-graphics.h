@@ -4,14 +4,14 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/MinGW/include"
+                "C:/TDM-GCC-32/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\MinGW\\bin\\g++"
+            "compilerPath": "C://TDM-GCC-32\\bin\\g++"
         }
     ],
     "version": 4
