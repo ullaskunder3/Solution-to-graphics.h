@@ -9,7 +9,7 @@
 - [Setup](#setup)
 - [.vscode config file](https://github.com/ullaskunder3/graphics.h-setup)
 
-My Workspace Dir and code example 
+My Workspace Dir and code example
 
 ![graphics example](https://user-images.githubusercontent.com/66258652/133918954-18751ba6-5487-4b38-9842-e5fce2dcf482.png)
 
@@ -31,16 +31,6 @@ You could also try SFML. It has quite a following. You'll have a large community
 
 --------------------------------------------------
 
-Now To set up graphics.h in vs code:
-
-alternative video instruction in `hindi` to setup graphics.h lib in vscode
- 
-[<img src="https://i.imgur.com/P8xiypZ.png" alt="How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA " width="50%" />](https://www.youtube.com/embed/ijrNSHwXDAc "How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA" )
-
- Alternative step wise instruction to setup MinGW along with graphics library (graphics.h)
- 
-- ReadME [MinGW & graphics.h setup](https://github.com/sagargoswami2001/Setup-Graphics.h-for-Visual-Studio-Code/blob/main/README.md)
-
 ## files
 
 - [Graphics](./graphics.h)
@@ -49,87 +39,109 @@ alternative video instruction in `hindi` to setup graphics.h lib in vscode
 
 ## Setup
 
- Get all the files needed `graphics.h`, `winbgim.h` and `libbgi.a`
+Know the difference between MINGW, Mingw-w64 && TDM [learn more go, go, go...](https://github.com/ullaskunder3/cpp-setup-vsCode#setup)
 
- If you don't have MinGW installed get it from official and follow the steps.
+UPDATE:
+switching from `MinGW` to `TDM-GCC-32`
 
- Know the difference between MINGW, Mingw-w64 && TDM [learn more go, go, go...](https://github.com/ullaskunder3/cpp-setup-vsCode#setup)
+Install `TDM-GCC-32` from their [official site link](https://jmeubank.github.io/tdm-gcc/)
 
-- Copy `graphics.h` and `winbgim.h` files to MinGW/`include` folder.
+|![step1](./step1.png)|![step1](./step2.png)|
+|--|--|
 
-location might be **("C:\MinGW\include\")**
+- after that default step that's all
 
-- Copy `libbgi.a` to file to MinGW/`lib` folder.
+## Get all the files needed `graphics.h`, `winbgim.h` and `libbgi.a`
 
-location might be **("C:\MinGW\lib\")**
+- Copy `graphics.h` and `winbgim.h` files to `TDM-GCC-32/include` folder.
+
+location might be **("C:/TDM-GCC-32/include/")**
+
+- Copy `libbgi.a` to file to `TDM-GCC-32/lib` folder.
+
+location might be **("C:/TDM-GCC-32/lib")**
 
 Open Vs Code Smart way:
 
 - Select a folder and open Terminal
 
 ```bash
-   mkdir turbographics
-   cd turbographics
+   mkdir cppGraphics
+   cd cppGraphics
    code .
 ```
+
 if you are using template with task and c_cpp_properties json file then you directory should look like this:
 
-- All you code should o inside `src` and the task.json will build the .exe in `build` folder
+- All your code should be inside `src` and the task.json will build the .exe in `build` folder
 
 ```cmd
-turbographics
+cppGraphics
 ├───.vscode
 └───Home
     ├───build
     └───src
 ```
 
-- Create or Add `.vscode` folder in that workspace which will contain `task.json`, `c_cpp_properties.json`
-
-  - [Alternative] OR just get the template from the repo => [.vscode config ❤](https://github.com/ullaskunder3/graphics.h-project-template)
+- `.vscode` folder in that workspace which will contain `task.json`, `c_cpp_properties.json`
 
 ![image](https://user-images.githubusercontent.com/66258652/133919065-0f524b26-cb2f-4aef-a19c-367a329188cd.png)
 
 ```cpp
-//create a file name it example.cpp or any other name with .cpp extension
+//create a file name it example.cpp inside src or any other name with .cpp extension
 
-#include <graphics.h> 
-    int main()
-    {
-        int gd = DETECT, gm;
-        char data[] = "C:\\MinGW\\lib\\libbgi.a";
-    
-        initgraph(&gd, &gm, data);
-       //you can also pass NULL for third parameter if you did above setup successfully
-       //example: initgraph(&gd, &gm, NULL);
-       
-        circle(200, 200, 100);
-        getch();
-        closegraph();
-        return 0;
-    }
+#include <graphics.h>
+
+int main(){
+    int gdrive = DETECT;
+    int gmode;
+
+    initgraph(&gdrive, &gmode, NULL);
+    // you can also pass NULL for third parameter if you did above setup successfully
+    // example: initgraph(&gd, &gm, NULL);
+
+    arc(200, 200, 0, 360, 100);
+    arc(150, 150, 0, 360, 20);
+    arc(250, 150, 0, 360, 20);
+
+    arc(200, 200, 0, 360, 5);
+    arc(200, 250, 180, 360, 30);
+
+    getch();
+    closegraph();
+}
 ```
 
-Running the file using command in termainl:
+### Just `Ctrl+Shift+B` to run the build task you will get the executable file in build folder
 
-```cmd
-    g++ -o example hut.cpp -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
-
-    //after u'll get example.exe run using command: .\example
-```
-![image](https://user-images.githubusercontent.com/66258652/133919476-09225201-68a4-46b8-9220-1a6244a0488c.png)
-
- OR => 👌🤩
- 
- - Just `Ctrl+Shift+B` to run the build task you will get the executable file in build folder
+![image](./output.png)
 
 ![graphics example2](https://user-images.githubusercontent.com/66258652/133919626-3cd671e5-36e4-4315-b4bf-951563fc6913.png)
 ![graphics example3](https://user-images.githubusercontent.com/66258652/133919648-c5745fd9-4fb4-49f5-9ca2-2d7b5f54fd85.png)
 
-  Easy run template for graphics.h [=> repo](https://github.com/ullaskunder3/graphics.h-project-template)
-  If your dont want to write that command again and again you can create [task.json](https://github.com/ullaskunder3/graphics.h-setup/tree/main/.vscode)
-  
- ## Contributors ✨
+## Manual
+
+Running the file using command in termainl:
+
+```cmd
+    g++ -o example day3.cpp -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+
+    //after u'll get example.exe run using command: .\example
+```
+
+---
+
+Now To set up graphics.h in vs code using MINGW:
+
+alternative video instruction in `hindi` to setup graphics.h lib in vscode
+
+[<img src="https://i.imgur.com/P8xiypZ.png" alt="How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA " width="50%" />](https://www.youtube.com/embed/ijrNSHwXDAc "How to setup graphic.h library in Visual Studio Code | Computer Graphics in VS Code | CGMA" )
+
+ Alternative step wise instruction to setup MinGW along with graphics library (graphics.h)
+
+- ReadME [MinGW & graphics.h setup](https://github.com/sagargoswami2001/Setup-Graphics.h-for-Visual-Studio-Code/blob/main/README.md)
+
+## Contributors ✨
 
 Thanks to these wonderful people:
 

@@ -4,7 +4,7 @@ int main(){
     int gdrive = DETECT;
     int gmode;
 
-    initgraph(&gdrive, &gmode, "");
+    initgraph(&gdrive, &gmode, NULL);
 
     arc(200, 200, 0, 360, 100);
     arc(150, 150, 0, 360, 20);
