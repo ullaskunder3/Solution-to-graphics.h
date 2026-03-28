@@ -1,6 +1,22 @@
-# [![Author](https://img.shields.io/badge/Auther---Ullas-blu)](https://img.shields.io/badge/Auther---Ullas-blu?utm_source=github.com&utm_medium=campaign&utm_content=button&utm_campaign=dmhendricks%2Ffile-icon-vectors)
+# How to Setup graphics library graphics.h in Visual Studio Code
 
-## Setting up graphics library (graphics.h) in Visual Studio Code (c++)
+Students who don't want to go through the full graphics.h setup can try the new Darvin IDE (beta version).
+
+## ⚠️ New Option: Try Darvin IDE (BETA – No Setup Required)
+
+👉 Download the latest beta here:
+https://github.com/ullaskunder3/darvin/releases/tag/v0.1.1-beta
+
+Important
+- This is still in beta
+- It may have bugs or missing features
+- But it already works for writing and running C and C++ programs
+- You can also create and run SDL3 projects (GUI) without manual setup
+
+If you prefer a stable manual method, follow the guide below.
+If you want something quick and simple, try Darvin IDE.
+
+>⚠️ This is still a beta version. Feedback and bug reports are welcome!
 
 ### Table Of Content
 
